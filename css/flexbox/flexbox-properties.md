@@ -21,6 +21,7 @@ div.container {
 ### `align-items:`
 
 - positions items along the cross axis (vertical)
+- used for aligning items elements whithin a single row
 
 ```css
 div.container {
@@ -32,3 +33,8 @@ div.container {
 ```
 ![Alt-text](../images/image-1.png)
 ![Alt text](../images/image-2.png)
+
+## `align-content:`
+
+- used to align elements within a flex container that contains more than one row
+- same syntax and values as `align-items:`
