@@ -14,7 +14,7 @@ div.container {
     display: flex;
 }
 ```
-![Alt text](<images/Screenshot 2024-01-02 at 4.37.17 PM.png>)
+![Alt text](<../images/Screenshot 2024-01-02 at 4.37.17 PM.png>)
 ---
 
 ### `display: inline-flex;`
@@ -28,7 +28,7 @@ div.container {
 }
 ```
 
- ![Alt text](<images/Screenshot 2024-01-02 at 4.44.07 PM.png>)
+ ![Alt text](<../images/Screenshot 2024-01-02 at 4.44.07 PM.png>)
 ---
 
 
