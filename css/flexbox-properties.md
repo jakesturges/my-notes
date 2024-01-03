@@ -14,8 +14,8 @@ div.container {
 }
 ```
 
-![Alt text](<Screenshot 2024-01-02 at 5.18.41 PM-1.png>)
-![Alt text](image.png)
+![Alt text](<images/Screenshot 2024-01-02 at 5.18.41 PM.png>)
+![Alt text](images/image.png)
 ---
 
 ### `align-items:`
@@ -30,5 +30,5 @@ div.container {
     align-items: baseline; /* bottom of content will be aligned */
 }
 ```
-![Alt-text](image-1.png)
-![Alt text](image-2.png)
+![Alt-text](images/image-1.png)
+![Alt text](images/image-2.png)
