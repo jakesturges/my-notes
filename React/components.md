@@ -154,3 +154,24 @@ export function Profile() {
 import { Profile } from "./Gallery.js"; //importing named export
 import Gallery from "./Gallery.js"; // importing default export
 ```
+
+## JSX Syntax
+
+- JSX is a syntax extension; React is a js framework
+  - they are two differnet things
+- JSX is what lets you write HTML markup inside the js file
+
+### Syntax Rules
+
+1. all HTML markup needs to be wrapped in a parent tag
+   - if you dont want to use a named tag, a `<fragment>` can be used
+     - <> </>
+     - this can look like:
+
+![Alt text](<Screenshot 2024-01-11 at 10.40.32 AM.png>)
+
+2. All self closing html tags need to be explicitly closed
+   - Ex:
+     - `<img>` tunrs into `<img/>`
+
+**here is a link to a JSX converter** - https://transform.tools/html-to-jsx
