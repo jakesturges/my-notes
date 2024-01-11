@@ -34,6 +34,8 @@ In the above exaxmple the `<TableOfContents/>` component may look like this unde
 </article>
 ```
 
+ <br/>
+
 ## Defining a Component
 
 ### Example
@@ -61,6 +63,8 @@ export default function Profile() {
 
 - in this case the markup is an `<imng>`tag
 
+  <br/>
+
 ## Using a Component
 
 The `Profile` component can be used individualy or nested inside other components. In the example below we can export the `Gallery` component which has multiple `Profile` components nested whithin.
@@ -81,6 +85,8 @@ export default function Gallery() {
   );
 }
 ```
+
+ <br/>
 
 ## Exporting and Importing a Component
 
@@ -131,6 +137,8 @@ export default function Gallery() {
    - `Profile()` component is used within same file but not exported
    - `Gallery()` component is set as default export
 
+ <br/>
+
 ## Exporting and Importing Multiple Components From Same File
 
 - use named exports
@@ -175,3 +183,7 @@ import Gallery from "./Gallery.js"; // importing default export
      - `<img>` tunrs into `<img/>`
 
 **here is a link to a JSX converter** - https://transform.tools/html-to-jsx
+
+ <br/>
+
+## Passing Props to Components
