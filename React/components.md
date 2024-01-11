@@ -172,15 +172,28 @@ import Gallery from "./Gallery.js"; // importing default export
 ### Syntax Rules
 
 1. all HTML markup needs to be wrapped in a parent tag
+
    - if you dont want to use a named tag, a `<fragment>` can be used
+
      - <> </>
      - this can look like:
 
-![Alt text](<Screenshot 2024-01-11 at 10.40.32 AM.png>)
+     ![Alt text](<Screenshot 2024-01-11 at 10.40.32 AM.png>)
 
 2. All self closing html tags need to be explicitly closed
+
    - Ex:
      - `<img>` tunrs into `<img/>`
+
+3. You must use `{}` to use JavaScript whithin JSX
+
+   - Ex:
+     ![Alt text](image.png)
+     - here the value in the avatar js variable is passed to the src attribute
+
+4. JavaScript Objects must be wrapped in a double set of curly braces `{{}}`
+
+<br/>
 
 **here is a link to a JSX converter** - https://transform.tools/html-to-jsx
 
