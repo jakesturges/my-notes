@@ -136,7 +136,7 @@ export default function Gallery() {
 - use named exports
 - as previously stated, a file can only have 1 defualt export but it can have multiple named exports
 
-### Syntax Export:
+### Syntax - Export:
 
 - just remove default keyword
 
@@ -146,7 +146,7 @@ export function Profile() {
 }
 ```
 
-### Syntax Import:
+### Syntax - Import:
 
 - place named export within curly braces
 
