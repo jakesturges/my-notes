@@ -11,3 +11,5 @@ By using the `margin: auto` and `width: 100%`elements can be center horzionally 
    - element stretches to fit width of container
 
 2. `margin: auto;` - calculates equal margins on all sides of the element
+
+- This only works on block level elements
