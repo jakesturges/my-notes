@@ -1,10 +1,10 @@
 # Short Circuit Evaluation
 
-- can be used to replaced JS if else statements
+- can be used to replaced JS if...else statements
 
 ### Example
 
-- if else statement
+- if...else statement
 
 ```JavaScript
 let username = '';
