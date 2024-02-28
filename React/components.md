@@ -178,7 +178,7 @@ import Gallery from "./Gallery.js"; // importing default export
      - <> </>
      - this can look like:
 
-     ![Alt text](<Screenshot 2024-01-11 at 10.40.32 AM.png>)
+   ![Alt text](<images/Screenshot 2024-01-11 at 10.40.32 AM.png>)
 
 2. All self closing html tags need to be explicitly closed
 
@@ -188,7 +188,7 @@ import Gallery from "./Gallery.js"; // importing default export
 3. You must use `{}` to use JavaScript whithin JSX
 
    - Ex:
-     ![Alt text](image.png)
+     ![Alt text](images/image.png)
      - here the value in the avatar js variable is passed to the src attribute
 
 4. JavaScript Objects must be wrapped in a double set of curly braces `{{}}`
