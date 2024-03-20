@@ -3,12 +3,13 @@
 - a container used to store data and functionality
 - objects are declared and then filled with Properties(key - value pairs)
   - key names with a space are put in ' '
+  - seperate key value pairs with a ,
 
 ### Object Literal Declaration
 
 ```javascript
 let spaceShip = {
-    'Fuel type' = 'diesel';
+    'Fuel type' = 'diesel',
     color = 'silver'
 };
 
@@ -47,12 +48,12 @@ const alienShip = {
     console.log(
       "Hello! We have come to dominate your planet. Instead of Earth, it shall be called New Xaculon."
     );
-  },
+  }, // methods are seperated by a ,
+  takeOff() {
+    console.log('Spim... Borp... Glix... Blastoff!');
+  };
 };
+
+alienShip.invade(); //calling the invade() method
 ```
 
-#### Calling the Method
-
-```javascript
-alienShip.invade();
-```
