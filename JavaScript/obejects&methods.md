@@ -23,6 +23,18 @@ let spaceShip = {
    <br>
 2. Bracket notation - use for keys w / spaces
    `spaceShip['Fuel Tye'] = coal;`
+   - allows you to access a property of an object using a variable or an expressiom
+     ```js
+     const person = {
+     name: 'John',
+     age: 30
+     };
+
+const propertyName = 'name';
+console.log(person[propertyName]); // Output: John
+
+````
+
    <br>
    <br>
    <br>
@@ -55,5 +67,4 @@ const alienShip = {
 };
 
 alienShip.invade(); //calling the invade() method
-```
-
+````
